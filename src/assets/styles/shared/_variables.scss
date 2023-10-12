@@ -1,0 +1,45 @@
+/*
+** Colors
+*/
+$white: #FFF;
+$black: #000;
+$dark: #282626;
+$blue: #656EC2;
+$gray: #767676;
+$body-color: $dark;
+
+
+/*
+** Font-family
+*/
+$font-primary: "Fira Sans";
+$font-second: "Montserrat";
+$font-base: $font-primary;
+
+
+/*
+** Font-size
+*/
+$font-size: 20px;
+
+
+/*
+** Breakpoints
+*/
+$mobile: 768px;
+$tablet: 1024px;
+$laptop: 1270px;
+
+$breakpoints: (
+  'mobile': (max-width: $mobile),
+  'tablet': (max-width: $tablet),
+  'laptop': (max-width: $laptop)
+) !default;
+
+/*
+** Grids
+*/
+
+$x-offset-20: 20px;
+
+
